@@ -2,7 +2,7 @@
 
 GEO 上 CAR-T 与 T 细胞多组学公开数据集的整理索引，纯静态站点，中英文可切换。
 
-**站点地址**：https://noorawang98.github.io/tcell-multiomics-db/
+**站点地址**：[https://noorawang98.github.io/tcell-multiomics-db/?lang=en](https://noorawang98.github.io/tcell-multiomics-db/?lang=en)
 
 ## 站点内容
 
