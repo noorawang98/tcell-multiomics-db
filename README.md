@@ -15,11 +15,32 @@ GEO 上 CAR-T 与 T 细胞多组学公开数据集的整理索引，纯静态站
 
 合计 **134 个数据集 / 3298 个样本 / 155.3 GB**，其中 25 个为 T 细胞多组学配套，79 个通过 GEO 官方 filelist 校验。
 
-**批量下载**：在 `catalog.html` 或类别页勾选数据集（或用「选择当前筛选结果」）→ 点「生成下载脚本」→ 核对清单 → 「下载 .sh」。
+## Usage
+
+1. Open the [TCMDB](https://noorawang98.github.io/tcell-multiomics-db/?lang=en).
+2. Select a disease category and use the search and filters to find relevant datasets.
+3. Click a dataset accession to view its original repository, metadata and files.
+
+
+**Generate a Batch Download Script 批量下载**：在 `catalog.html` 或类别页勾选数据集（或用「选择当前筛选结果」）→ 点「生成下载脚本」→ 核对清单 → 「下载 .sh」。
 浏览器不执行下载，只生成可在本地运行的 Bash 脚本；脚本含断点续传、有限重试、逐文件日志、失败汇总，不使用 sudo、不自动解压。
 SRA 原始数据作为独立选项，仅对已核实关联 accession 的数据集提供。
 
-## 目录结构
+Select the datasets you want to download.
+## Generate a Batch Download Script
+
+1. Select the datasets you want to download.
+2. Use the download-script option to generate and save the Bash script.
+3. Review the script, then run it in a terminal:
+
+```bash
+bash download_datasets.sh
+```
+
+Use the actual filename if it differs. Check the script for required tools, download locations and available disk space before running. Datasets without supported download links may require manual access.
+
+
+## Structure目录结构
 
 ```
 ├─ index.html catalog.html guideline.html 404.html .nojekyll   ← 站点（仓库根目录，可直接发布）
@@ -38,7 +59,7 @@ SRA 原始数据作为独立选项，仅对已核实关联 accession 的数据�
 └─ .github/workflows/           pages.yml（可选：从数据库自动重建并发布）
 ```
 
-## 数据来源与许可
+## Source and permission 数据来源与许可 
 
 - 元数据：NCBI GEO（E-utilities + FTP series matrix）；文献：PubMed 官方记录
 - 完整性：GEO 官方 `filelist.txt` 交叉比对、`tar -tf` 索引、`gzip -t` CRC
