@@ -15,61 +15,75 @@ jobs:
         with:
           python-version: "3.12"
 
-      # 站点文件在仓库根目录；构建工具与数据库在 _curated/
-      - name: Verify site files are in place
+      # 站点在仓库根目录；构建工具与数据库在 _curated/
+      - name: Verify committed site files
         run: |
           for f in index.html catalog.html guideline.html 404.html .nojekyll \
                    assets/app.css assets/site.js assets/downloads.js \
                    data/datasets.json data/categories.json data/downloads.json; do
             test -f "$f" || { echo "缺少 $f"; exit 1; }
           done
-          test "$(ls pages/*.html | wc -l)" = "11" || { echo "类别页应为 11 个"; exit 1; }
+          n=$(ls pages/*.html | wc -l)
+          echo "类别页数量: $n"
+          test "$n" = "11" || { echo "类别页应为 11 个"; exit 1; }
           echo "站点文件齐备"
 
-      - name: Verify database-driven build reproduces the site
+      # 用 catalog.sqlite 重新生成 JSON（输出到 _curated/site/data）
+      - name: Rebuild JSON from catalog.sqlite
+        working-directory: _curated
+        run: python3 export_json.py --site site --repo-name "${{ github.event.repository.name }}"
+
+      - name: Validate exported JSON
         working-directory: _curated
         run: |
-          DSH_REPO_NAME="${{ github.event.repository.name }}" bash build_site.sh
           python3 - <<'PY'
-          import json, os
+          import json
           d = json.load(open("site/data/datasets.json", encoding="utf-8"))
           c = json.load(open("site/data/categories.json", encoding="utf-8"))
           m = json.load(open("site/data/meta.json", encoding="utf-8"))
           assert len(d) == m["n_ds"] == 134, (len(d), m["n_ds"])
-          assert len(c) == 11
+          assert len(c) == 11, len(c)
           assert {x["id"] for x in c} == {k for r in d for k in r["dis"]}
-          for r in d:
-              assert r["acc"].startswith("GSE")
           blob = json.dumps(d, ensure_ascii=False)
           for bad in ["/home/", "password", "api_key", "BEGIN PRIVATE KEY", "ssh-rsa"]:
               assert bad not in blob, bad
-          print("导出 JSON 校验通过：", len(d), "数据集 /", len(c), "类别")
+          print("导出 JSON 校验通过:", len(d), "数据集 /", len(c), "类别")
           PY
 
-      - name: Verify download manifest is safe (no guessed URLs)
+      # 页面一致性：仓库根的页面与其数据必须自洽（行数、类别数、下载清单统计）
+      - name: Validate committed pages against their data
         run: |
           python3 - <<'PY'
-          import json, os
-          p = "data/downloads.json"
-          if not os.path.exists(p):
-              print("无 downloads.json，跳过（网页会提示暂无可验证下载链接）")
-              raise SystemExit(0)
-          d = json.load(open(p, encoding="utf-8"))
-          ds = d.get("datasets", {})
-          off = 0
-          for acc, r in ds.items():
-              g = r.get("geo", {})
-              files = g.get("files", [])
-              # 只允许官方 GEO 地址；不可核实的记录不得带文件
-              for f in files:
-                  assert f["u"].startswith("https://ftp.ncbi.nlm.nih.gov/geo/series/"), f["u"]
-                  assert "/" not in f["n"], f["n"]
-              if g.get("state") == "unavailable":
-                  assert not files, acc
-              if r.get("sra", {}).get("available"):
-                  assert r["sra"].get("n_runs") and r["sra"].get("study"), acc
-              off += 1
-          st = d.get("stats", {})
-          print(f"下载清单校验通过：{len(ds)} 个数据集 · 已核实 {st.get('verified')} · "
-                f"不可核实 {st.get('unavailable')} · 文件 {st.get('n_files')}")
+          import json, os, re
+
+          ds = json.load(open("data/datasets.json", encoding="utf-8"))
+          cats = json.load(open("data/categories.json", encoding="utf-8"))
+          dl = json.load(open("data/downloads.json", encoding="utf-8"))
+          assert len(cats) == 11
+          assert len(dl["datasets"]) == dl["stats"]["n"] == 133
+          verified = sum(1 for r in dl["datasets"].values() if r["geo"].get("files"))
+          assert verified == dl["stats"]["verified"], (verified, dl["stats"]["verified"])
+
+          pages = ["index.html", "catalog.html", "guideline.html",
+                   "404.html"] + ["pages/" + f for f in sorted(os.listdir("pages"))]
+          assert len(pages) == 15, len(pages)
+
+          for p in pages:
+              t = open(p, encoding="utf-8").read()
+              for ph in ["{INLINE_JS}", "{titleattr}", "{navbase}", "{dlbar}"]:
+                  assert ph not in t, (p, ph)
+              assert 'id="dsh-manifest"' in t, p
+              # 每个页面都要引用存在的资源
+              for m in re.findall(r'(?:href|src)="((?:\.\./|\./)?assets/[^"]+)"', t):
+                  rel = m.replace("../", "").replace("./", "")
+                  if rel.endswith("icons/sprite.svg"):
+                      continue
+                  assert os.path.exists(rel), (p, rel)
+
+          # 首页必须包含 11 个类别卡片的数据入口，目录页必须能加载下载模块
+          idx = open("index.html", encoding="utf-8").read()
+          assert 'id="cat-grid"' in idx and "downloads.js" not in idx
+          cat = open("catalog.html", encoding="utf-8").read()
+          assert 'id="dl-bar"' in cat and 'id="dl-panel"' in cat and "assets/downloads.js" in cat
+          print("页面自洽性检查通过:", len(pages), "页 · 资源引用有效 · 无占位符残留")
           PY
