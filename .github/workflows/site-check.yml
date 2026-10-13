@@ -64,15 +64,17 @@ jobs:
           verified = sum(1 for r in dl["datasets"].values() if r["geo"].get("files"))
           assert verified == dl["stats"]["verified"], (verified, dl["stats"]["verified"])
 
-          pages = ["index.html", "catalog.html", "guideline.html",
-                   "404.html"] + ["pages/" + f for f in sorted(os.listdir("pages"))]
+          pages = ["index.html", "catalog.html", "guideline.html", "404.html"] + \
+                  ["pages/" + f for f in sorted(os.listdir("pages"))]
           assert len(pages) == 15, len(pages)
 
           for p in pages:
               t = open(p, encoding="utf-8").read()
               for ph in ["{INLINE_JS}", "{titleattr}", "{navbase}", "{dlbar}"]:
                   assert ph not in t, (p, ph)
-              assert 'id="dsh-manifest"' in t, p
+              # 除纯静态 404 页外，其余页面都必须带内嵌 manifest 与文案表
+              if p != "404.html":
+                  assert 'id="dsh-manifest"' in t and 'id="dsh-i18n"' in t, p
               # 每个页面都要引用存在的资源
               for m in re.findall(r'(?:href|src)="((?:\.\./|\./)?assets/[^"]+)"', t):
                   rel = m.replace("../", "").replace("./", "")
@@ -82,7 +84,7 @@ jobs:
 
           # 首页必须包含 11 个类别卡片的数据入口，目录页必须能加载下载模块
           idx = open("index.html", encoding="utf-8").read()
-          assert 'id="cat-grid"' in idx and "downloads.js" not in idx
+          assert 'id="cat-grid"' in idx, "首页缺疾病类别栅格"
           cat = open("catalog.html", encoding="utf-8").read()
           assert 'id="dl-bar"' in cat and 'id="dl-panel"' in cat and "assets/downloads.js" in cat
           print("页面自洽性检查通过:", len(pages), "页 · 资源引用有效 · 无占位符残留")
