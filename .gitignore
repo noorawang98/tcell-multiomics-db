@@ -1,0 +1,15 @@
+# 原始测序数据与本地目录，不入库
+/GSE*/
+/GES*/
+/singleCell/
+/_preview/
+/_repo_build/
+*.tar
+*.tar.gz
+*.filepart
+nohup.out
+wget-log
+*.log
+__pycache__/
+*.pyc
+.DS_Store

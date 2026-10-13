@@ -1,0 +1,134 @@
+accession	title	rna_class	rna_sc	rna_bulk	rna_unknown	atac_class	atac_sc	atac_bulk	tcr_class	tcr_sc	tcr_bulk	methyl_class	screen_class	screen_n	n_votes	n_samples	evidence	integrity	db_mods	db_scrna
+GSE151511	Single-cell transcriptomics of chimeric antigen receptor T-c	single_cell	24	0	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE160160	Induction of T cell dysfunction and NK-like T cell different	single_cell	6	0	0	none	0	0	none	0	0	none	none	0	6	6	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE160174	Induction of T cell dysfunction and NK-like T cell different	mixed	15	42	0	bulk	0	8	single_cell	4	0	none	none	0	65	65	L1本地流程	COMPLETE_VERIFIED	scRNA,scATAC	1
+GSE168940	Single-cell sequencing data for circulating CAR T cells in l	single_cell	18	0	0	none	0	0	single_cell	18	0	none	none	0	18	18	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE179994	Temporal single cell tracing reveals clonal revival and expa	single_cell	47	0	0	none	0	0	single_cell	47	0	none	none	0	47	47	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE186802	GD2-CAR T-cell therapy for H3K27M-mutated diffuse midline gl	single_cell	1	0	0	none	0	0	single_cell	1	0	none	none	0	1	1	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE187438	Factors contributing to Chimeric Antigen Receptor T-cell The	single_cell	20	0	0	none	0	0	none	0	0	none	none	0	20	20	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE197851	CAR Density Influences Antitumoral Efficacy of BCMA CAR T Ce	mixed	6	24	0	bulk	0	24	mixed	6	48	none	none	0	54	54	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE197977	Tumour immune contexture is a determinant of anti-CD19 CAR T	bulk	0	74	0	none	0	0	none	0	0	none	none	0	74	74	L1本地流程+芯片平台=bulk	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE207192	Low-Strength Type I Interferon Signaling Promotes CAR T-Cell	single_cell	60	0	0	none	0	0	single_cell	60	0	none	none	0	60	60	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE210079	Changes in bone marrow tumor and immune cells correlate with	single_cell	24	0	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE210364	Generation of TCR-negative CD8αβ+ CAR T cells from T cell-de	bulk	0	19	0	none	0	0	none	0	0	none	none	0	19	19	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE210664	Immune Restoring (IR) CAR-T Cells Display Superior Antitumor	single_cell	8	0	0	none	0	0	single_cell	8	0	none	none	0	8	8	L1本地流程	UNVERIFIED	scRNA,scTCR	1
+GSE216005	Prolonged cytopenia following  CD19 CAR T cell therapy is li	single_cell	22	0	0	none	0	0	none	0	0	none	none	0	22	22	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE216734	Gene expression profiles of chimeric cytokine receptor-engin	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE221580	B cells enhanced the anti-U251/U373 activity of EphA2-CAR T 	bulk	0	4	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE223655	Characteristics of premanufacture CD8+T cells determine CAR-	bulk	0	65	0	none	0	0	none	0	0	none	none	0	65	65	L1本地流程	UNVERIFIED	scRNA	1
+GSE225521	Overexpression of FOXO1 enhances CAR T cell polyfunctionalit	none	0	0	0	bulk	0	12	none	0	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scATAC	0
+GSE225522	Overexpression of FOXO1 enhances CAR T cell polyfunctionalit	bulk	0	11	0	none	0	0	none	0	0	none	none	0	11	11	L1本地流程	UNVERIFIED	scRNA	1
+GSE225523	Overexpression of FOXO1 enhances CAR T cell polyfunctionalit	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scRNA	1
+GSE225527	Overexpression of FOXO1 enhances CAR T cell polyfunctionalit	mixed	2	40	0	bulk	0	12	none	0	0	none	none	0	54	54	L1本地流程	COMPLETE_VERIFIED	scRNA,scATAC	1
+GSE226336	Tumor Intrinsic Mechanisms of Antigen Escape to Anti-BCMA an	single_cell	39	0	0	none	0	0	none	0	0	none	none	0	39	39	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE227312	Nanostring analysis of non-activated or activated CAR T cell	bulk	0	60	0	none	0	0	none	0	0	none	none	0	60	60	L1本地流程	COMPLETE_VERIFIED		0
+GSE227435	Analysis of CD70 wild type or CD70 knock out CD70-specific n	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE228127	Multimodal single-cell profiling reveals the enhanced antitu	single_cell	12	0	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scRNA	1
+GSE230207	Spatial single cell analysis of tumor microenvironment remod	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE231429	Placental T cells retain enhanced stemness and altered cytok	bulk	0	13	0	none	0	0	none	0	0	none	none	0	13	13	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE232540	RNA sequencing of WT or BTLA KO CAR T cells following chroni	bulk	0	4	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE23426	Analysis of the miRNA profile associated with c-Src-mediated	bulk	0	0	0	none	0	0	none	0	0	none	none	0	8	8	L5gdstype(芯片=bulk)	COMPLETE_VERIFIED		0
+GSE234261	Single cell multi-omic dissection of response and resistance	single_cell	100	0	0	none	0	0	single_cell	100	0	none	none	0	100	100	L1本地流程	UNVERIFIED	scRNA	1
+GSE234866	ZFP36 disruption is insufficient to enhance the function of 	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE235760	Integrative single-cell multi-omics of CD19-CARpos and CARne	single_cell	40	0	0	none	0	0	single_cell	40	0	none	none	0	40	40	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE236468	Restoration of LAT signaling through the expression of a nov	bulk	0	24	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	UNVERIFIED	scRNA	1
+GSE239648	Epigenetic sequencing of allogeneic HSC-derived CAR-engineer	none	0	0	0	none	0	0	none	0	0	bulk	none	0	9	9	L1本地流程	COMPLETE_VERIFIED	scATAC(by_gdstype)	0
+GSE240418	Targeting axonal guidance dependencies in glioblastoma with 	none	0	0	0	none	0	0	none	0	0	none	bulk	21	21	21	L1本地流程	COMPLETE_VERIFIED		0
+GSE240490	Targeting axonal guidance dependencies in glioblastoma with 	bulk	0	20	0	none	0	0	none	0	0	none	none	0	20	20	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE240492	Targeting axonal guidance dependencies in glioblastoma with 	bulk	0	20	0	none	0	0	none	0	0	none	bulk	21	41	41	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE240974	Augmenting CAR T Cell Function with LIGHT	single_cell	8	0	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE241456	NR4a knock-down in HER2 CAR-T cells improves T cell longevit	bulk	0	14	0	none	0	0	none	0	0	none	none	0	14	14	L1本地流程	UNVERIFIED	scRNA	1
+GSE241458	NR4a knock-down in HER2 CAR-T cells improves T cell longevit	mixed	2	14	0	none	0	0	none	0	0	none	none	0	16	16	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE241783	A single cell atlas of CD19 chimeric antigen receptor T cell	single_cell	59	0	0	none	0	0	single_cell	59	0	none	none	0	59	59	L1本地流程	COMPLETE_VERIFIED		0
+GSE241838	Mitigation of chromosome loss in clinical CRISPR-Cas9-engine	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE241996	Single cell RNA sequencing monitoring the development of all	single_cell	10	0	0	none	0	0	none	0	0	none	none	0	10	10	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE241997	Single cell RNA sequencing of the in vivo mouse TME	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE241998	Single cell RNA sequencing to study the in vivo behaviour of	single_cell	9	0	0	none	0	0	none	0	0	none	none	0	9	9	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE241999	Single cell RNA sequencing of in vivo OVCAR8 tumor cells	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE242743	Minimal Residual Disease in Mouse Hepatocellular carcinoma [	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	UNVERIFIED	scRNA	1
+GSE242745	Minimal Residual Disease in Mouse Hepatocellular carcinoma [	single_cell	1	0	0	none	0	0	none	0	0	none	none	0	1	1	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE242746	Minimal Residual Disease in Mouse Hepatocellular carcinoma	single_cell	3	0	0	none	0	0	none	0	0	none	none	0	3	3	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE242790	Repeated peripheral infusions of anti-EGFRvIII CAR T cells i	single_cell	30	0	0	none	0	0	single_cell	30	0	none	none	0	30	30	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE243176	Transcriptional Profile Tumor Evolution in Metastatic and No	bulk	0	19	0	none	0	0	none	0	0	none	none	0	19	19	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE243226	Gene-expression study of primary human anti-CD19 CAR T cells	bulk	0	36	0	none	0	0	none	0	0	none	none	0	36	36	L1本地流程+芯片平台=bulk	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE243325	Sequencing analysis of CAR T cell products and apheresis cel	single_cell	12	0	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE243973	Circulating monocyte counts coupled with a 4-gene signature 	bulk	0	85	0	none	0	0	none	0	0	none	none	0	85	85	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE244028	single cell RNA-sequencing analysis of human SUV39H1-knockou	single_cell	12	0	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE244030	Nanostring analysis of human SUV39H1-knockout CAR T compared	bulk	0	24	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE245955	GD2-CART cells and iPSC-derived GD2-CART cells (scRNA-Seq)	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	UNVERIFIED	scRNA	1
+GSE246335	Targeting the mevalonate or Wnt pathways to overcome CAR T-c	bulk	0	21	0	none	0	0	none	0	0	none	none	0	21	21	L1本地流程	UNVERIFIED	scRNA	1
+GSE246342	CD4+ CAR-T cell exhaustion associated with early relapse of 	single_cell	18	0	0	none	0	0	single_cell	18	0	none	none	0	18	18	L1本地流程	UNVERIFIED	scRNA,scTCR	1
+GSE248590	Disinhibition of Early T cell Activation via CD5 Knock Out E	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	UNVERIFIED	scRNA	1
+GSE248835	Impact of Tumor Microenvironment on Efficacy of CD19 CAR T-C	bulk	0	256	0	none	0	0	none	0	0	none	none	0	256	256	L1本地流程+芯片平台=bulk	UNVERIFIED	scRNA(by_gdstype)	0
+GSE249316	High-specificity CRISPR-mediated genome engineering in CB-01	single_cell	18	0	0	none	0	0	none	0	0	none	none	0	18	18	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE249511	Comparison of gene expression by activated T-cells that expr	bulk	0	17	0	none	0	0	none	0	0	none	none	0	17	17	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE250444	Identification of molecular mechanisms promoting long-term c	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	UNVERIFIED	scRNA	1
+GSE252036	CAR affinity modulates the sensitivity of CAR-T cells to PD-	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE253352	Interleukin-15-armored GPC3-CAR T cells for patients with so	single_cell	83	0	0	none	0	0	single_cell	22	0	none	none	0	83	83	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE253738	Evaluation of the impact of scFv on functionality and safety	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE253872	Identification of a clinically efficacious CAR T cell subset	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE254544	RNA sequencing comparison of B7-H3.TMIGD2 and B7-H3.CD28.4-1	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE254545	RNA sequencing comparison of B7-H3.TMIGD2 and B7-H3.CD28.4-1	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE254546	RNA sequencing comparison of B7-H3.TMIGD2 and B7-H3.CD28.4-1	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE254547	RNA sequencing comparison of B7-H3.TMIGD2 and B7-H3.CD28.4-1	bulk	0	28	0	none	0	0	none	0	0	none	none	0	28	28	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE254807	Histone marks identify novel transcription factors that pars	none	0	0	0	bulk	0	24	none	0	0	none	none	0	24	24	L1本地流程	COMPLETE_VERIFIED	scATAC(by_gdstype)	0
+GSE255002	Drug-regulated CD33-targeted CAR T cells control AML using c	bulk	0	70	0	none	0	0	none	0	0	none	none	0	70	70	L1本地流程	UNVERIFIED	scRNA	1
+GSE255145	Gene expression profiles of CAR-T cells engineered with chim	bulk	0	9	0	none	0	0	none	0	0	none	none	0	9	9	L1本地流程	UNVERIFIED	scRNA	1
+GSE255323	Transcriptional responses of T cells activated via CD22-spec	bulk	0	36	0	none	0	0	none	0	0	none	none	0	36	36	L1本地流程	UNVERIFIED	scRNA	1
+GSE255408	FOXO1 is a master regulator of CAR T memory programming [RNA	bulk	0	9	0	none	0	0	none	0	0	none	none	0	9	9	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE255410	FOXO1 is a master regulator of CAR T memory programming [RNA	bulk	0	6	0	none	0	0	none	0	0	none	none	0	6	6	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE255411	FOXO1 is a master regulator of CAR T memory programming [ATA	none	0	0	0	bulk	0	9	none	0	0	none	none	0	9	9	L1本地流程	UNVERIFIED	scRNA	1
+GSE255412	FOXO1 is a master regulator of CAR T memory programming [RNA	bulk	0	18	0	none	0	0	none	0	0	none	none	0	18	18	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE255413	FOXO1 is a master regulator of CAR T memory programming [RNA	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE255414	FOXO1 is a master regulator of CAR T memory programming [RNA	bulk	0	9	0	none	0	0	none	0	0	none	none	0	9	9	L1本地流程	UNVERIFIED	scRNA(by_gdstype)	0
+GSE255415	FOXO1 is a master regulator of CAR T memory programming [ATA	none	0	0	0	bulk	0	18	none	0	0	none	none	0	18	18	L1本地流程	UNVERIFIED	scRNA	1
+GSE255416	FOXO1 is a master regulator of CAR T memory programming	mixed	2	54	0	bulk	0	27	none	0	0	none	none	0	83	83	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE255548	EZH2 INHIBITION ENHANCES T CELL IMMUNOTHERAPIES BY INDUCING 	bulk	0	35	0	none	0	0	none	0	0	none	none	0	35	35	L1本地流程	UNVERIFIED	scRNA	1
+GSE255850	Phase I Trial Evaluating Locoregionally-delivered IL13Rα2-ta	single_cell	39	0	0	none	0	0	single_cell	39	0	none	none	0	39	39	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE255888	DIISCO: A Bayesian framework for inferring dynamic intercell	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE255977	Genetic Disruption of Blimp-1 Drastically Augments the Anti-	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE261093	The TET2 methylcytosine dioxygenase regulates early and late	bulk	0	31	0	bulk	0	20	none	0	0	none	none	0	51	51	L1本地流程	UNVERIFIED	scRNA,scATAC	1
+GSE261103	A high-density microfluidic bioreactor for the automated man	bulk	0	6	0	none	0	0	none	0	0	none	none	0	6	6	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE261235	Expansion of endogenous T cells in CSF of pediatric and youn	single_cell	37	0	0	none	0	0	single_cell	37	0	none	none	0	37	37	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE261475	Engineered CD47 protects T cells for enhanced antitumor immu	single_cell	8	0	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE262072	Single-cell CAR T atlas reveals type 2 function in 8-year le	single_cell	88	0	0	none	0	0	none	0	0	none	none	0	88	88	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE262360	A single infusion of engineered long-lived and multifunction	single_cell	1	0	0	none	0	0	none	0	0	none	none	0	1	1	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE262447	Selective refueling of CAR T cells using ADA1 and CD26 boost	bulk	0	15	0	none	0	0	none	0	0	none	none	0	15	15	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE262686	Dissecting the role of CAR signaling architectures on T cell	single_cell	32	0	0	none	0	0	none	0	0	none	none	0	48	48	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE263156	FOXO1 is a master regulator of CAR T memory programming [scR	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE263162	FOXO1 enhances CAR T cell stemness, metabolic fitness and ef	bulk	0	9	0	none	0	0	none	0	0	none	none	0	9	9	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE263177	T cells expressing modified Fc receptor infiltrate solid tu	bulk	0	24	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE263256	FOXO1 enhances CAR T cell stemness, metabolic fitness and ef	single_cell	2	0	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE263257	FOXO1 enhances CAR T cell stemness, metabolic fitness and ef	bulk	0	18	0	none	0	0	none	0	0	none	none	0	18	18	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE263349	RNA-seq analysis of human CD8 CAR-EGFR T cells in expansion 	bulk	0	24	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE263589	Gene expression profiles of Ramos tumor cells with TNFRSF17 	bulk	0	6	0	none	0	0	none	0	0	none	none	0	6	6	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE263931	Selective CAR-T cell mediated B cell depletion suppresses in	single_cell	28	0	0	none	0	0	single_cell	28	0	none	none	0	28	28	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE263932	Selective CAR-T cell mediated B cell depletion suppresses in	single_cell	20	0	0	none	0	0	single_cell	20	0	none	none	0	20	20	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE264206	A culture method with berbamine, a plant alkaloid, enhances 	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE265904	GLUT1 overexpression enhances CAR T cell metabolic fitness a	bulk	0	8	0	none	0	0	none	0	0	none	none	0	8	8	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE273170	Baseline Immune State and T cell Clonal Kinetics are Associa	single_cell	81	0	0	none	0	0	single_cell	81	0	none	none	0	81	81	L1本地流程	UNVERIFIED	scRNA,scTCR	1
+GSE273294	mRNA Profiling of Chronically Stimulated CART19-28z Cells in	bulk	0	6	0	none	0	0	none	0	0	none	none	0	6	6	L1本地流程	COMPLETE_VERIFIED	scRNA(by_gdstype)	0
+GSE273297	ATAC Sequencing of Baseline and Chronically Stimulated CART1	none	0	0	0	bulk	0	6	none	0	0	none	none	0	6	6	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE273299	Genome-wide CRISPR Knockout Screen of Healthy Donor CART19-2	none	0	0	0	none	0	0	none	0	0	none	unresolved	0	6	6	L1本地流程	UNVERIFIED		0
+GSE274821	Prior chemotherapy deteriorates T-cell quality for CAR T-cel	bulk	0	31	0	none	0	0	none	0	0	none	none	0	31	31	L1本地流程+芯片平台=bulk	COMPLETE_VERIFIED	scRNA	1
+GSE275947	Prior Chemotherapy Deteriorates T Cell Quality for CAR T Cel	single_cell	12	0	0	none	0	0	single_cell	12	0	none	none	0	12	12	L1本地流程	COMPLETE_VERIFIED	scRNA,scTCR	1
+GSE277818	Targeting PRC2 enhances the antitumor cytotoxic capacity of 	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE278481	EZH2 INHIBITION ENHANCES T CELL IMMUNOTHERAPIES BY INDUCING 	none	0	0	0	bulk	0	16	none	0	0	none	none	0	16	16	L1本地流程	COMPLETE_VERIFIED	scATAC(by_gdstype)	0
+GSE281230	Chimeric antigen receptor with novel intracellular modules i	bulk	0	24	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE283144	Multi-Omic Single-Cell Dissection of Leukemic T-Cell Lymphom	single_cell	16	0	0	none	0	0	single_cell	16	0	none	none	0	16	16	L1本地流程	UNVERIFIED	scRNA,scTCR	1
+GSE283145	Multi-Omic Single-Cell Dissection of Leukemic T-Cell Lymphom	single_cell	3	0	0	none	0	0	none	0	0	none	none	0	3	3	L1本地流程	UNVERIFIED	scRNA	1
+GSE284343	Eighteen-year survival after GD2-directed Chimeric Antigen R	single_cell	12	0	0	none	0	0	single_cell	12	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scRNA	1
+GSE284491	Rapamycin Enhances CAR-T Control of HIV Replication and Rese	bulk	0	6	0	none	0	0	none	0	0	none	none	0	6	6	L1本地流程	UNVERIFIED	scRNA	1
+GSE284615	Tumor-site directed A1R expression enhances CAR T cell funct	bulk	0	10	0	none	0	0	none	0	0	none	none	0	10	10	L1本地流程	UNVERIFIED	scRNA	1
+GSE284616	Tumor-site directed A1R expression enhances CAR T cell funct	none	0	0	0	bulk	0	5	none	0	0	none	none	0	5	5	L1本地流程	UNVERIFIED	scATAC	0
+GSE284618	Tumor-site directed A1R expression enhances CAR T cell funct	bulk	0	24	0	none	0	0	none	0	0	none	none	0	24	24	L1本地流程	UNVERIFIED	scRNA	1
+GSE284619	Tumor-site directed A1R expression enhances CAR T cell funct	bulk	0	36	0	none	0	0	none	0	0	none	none	0	36	36	L1本地流程	UNVERIFIED	scRNA	1
+GSE286237	Nivolumab to restore T-cell fitness in CAR-T refractory mult	bulk	0	2	0	none	0	0	none	0	0	none	none	0	2	2	L1本地流程	UNVERIFIED	scRNA	1
+GSE287125	Immunotherapy-related cognitive impairment after CAR T cell 	single_cell	7	0	0	none	0	0	none	0	0	none	none	0	7	7	L1本地流程	UNVERIFIED	scRNA	1
+GSE287286	Dynamic control of transcriptional regulator BACH2 overcomes	bulk	0	65	0	none	0	0	none	0	0	none	none	0	65	65	L1本地流程	UNVERIFIED	scRNA	1
+GSE290291		single_cell	1	0	0	none	0	0	none	0	0	none	none	0	1	0	L4文件名	UNVERIFIED	scRNA	1
+GSE290620	Quadruple adenine base edited allogeneic CAR T cells outperf	none	0	0	0	bulk	0	25	none	0	0	none	none	0	25	25	L1本地流程	UNVERIFIED	scATAC	0
+GSE290621	Quadruple adenine base edited allogeneic CAR T cells outperf	bulk	0	33	0	none	0	0	none	0	0	none	none	0	33	33	L1本地流程	COMPLETE_VERIFIED	scRNA	1
+GSE290722	Longitudinal single-cell immunoprofiling links durable CAR T	single_cell	184	0	0	none	0	0	single_cell	184	0	none	none	0	184	184	L1本地流程	UNVERIFIED	scRNA,scTCR	1
+GSE291834	Lipid Uptake via FATP2 Enhances CAR-T Therapy Resistance in 	single_cell	4	0	0	none	0	0	none	0	0	none	none	0	4	4	L1本地流程	UNVERIFIED	scRNA	1
+GSE292279	DUSP6 ablation restores CAR T fitness impaired by tumor CD58	bulk	0	12	0	none	0	0	none	0	0	none	none	0	12	12	L1本地流程	UNVERIFIED	scRNA	1

@@ -1,0 +1,83 @@
+pmid	journal	year	authors	title
+21383697	Oncogene	2011	Oneyama C et al.	MicroRNA-mediated downregulation of mTOR/FGFR3 controls tumor growth induced by Src-related oncogenic pathways.
+33020644	Nat Med	2020	Deng Q et al.	Characteristics of anti-CD19 CAR T cell infusion products associated with efficacy and toxicity in patients with large B cell lymphomas.
+34861191	Cell	2021	Good CR et al.	An NK-like CAR T cell transition in CAR T cell dysfunction.
+35121991	Nat Cancer	2022	Liu B et al.	Temporal single-cell tracing reveals clonal revival and expansion of precursor exhausted T cells during anti-PD-1 therapy in lung cancer.
+35130560	Nature	2022	Majzner RG et al.	GD2-CAR T cell therapy for H3K27M-mutated diffuse midline gliomas.
+35941192	Nat Biomed Eng	2022	van der Stegen SJC et al.	Generation of T-cell-receptor-negative CD8αβ-positive CAR T cells from T-cell-derived induced pluripotent stem cells.
+36026513	Blood Cancer Discov	2022	Dhodapkar KM et al.	Changes in Bone Marrow Tumor and Immune Cells Correlate with Durability of Remissions Following BCMA CAR T Therapy in Myeloma.
+36038629	Nat Med	2022	Scholler N et al.	Tumor immune contexture is a determinant of anti-CD19 CAR T cell efficacy in large B cell lymphoma.
+36097223	Nat Med	2022	Good Z et al.	Post-infusion CAR T(Reg) cells identify patients resistant to CD19-CAR therapy.
+36179026	Sci Adv	2022	Rodriguez-Marquez P et al.	CAR density influences antitumoral efficacy of BCMA CAR T cells and correlates with clinical outcome.
+37120690	Leukemia	2023	Xia Y et al.	Spatial single cell analysis of tumor microenvironment remodeling pattern in primary central nervous system lymphoma.
+37352396	Cancer Immunol Res	2023	Righi M et al.	Enhancing CAR T-cell Therapy Using Fab-Based Constitutively Heterodimeric Cytokine Receptors.
+37586321	Cell Rep Med	2023	Strati P et al.	Prolonged cytopenia following CD19 CAR T cell therapy is linked with bone marrow infiltration of clonally expanded IFNγ-expressing CD8 T cells.
+37653344	Nat Med	2023	Lee H et al.	Mechanisms of antigen escape from BCMA- or GPRC5D-targeted immunotherapies in multiple myeloma.
+37738975	Cancer Cell	2023	Li X et al.	A single-cell atlas of CD19 chimeric antigen receptor T cells.
+37794590	Cell	2023	Tsuchida CA et al.	Mitigation of chromosome loss in clinical CRISPR-Cas9-engineered T cells.
+37875502	Signal Transduct Target Ther	2023	Wang Y et al.	Characteristics of premanufacture CD8(+)T cells determine CAR-T efficacy in patients with diffuse large B-cell lymphoma.
+37932456	Nat Immunol	2023	Velasco Cárdenas RM et al.	Harnessing CD3 diversity to optimize CAR T cells.
+37934001	Cancer Discov	2024	López-Cobo S et al.	SUV39H1 Ablation Enhances Long-term CAR T Function in Solid Tumors.
+38233586	Nat Med	2024	Locke FL et al.	Impact of tumor microenvironment on efficacy of anti-CD19 CAR T cell therapy or chemotherapy and transplant in large B cell lymphoma.
+38326511	Sci Rep	2024	Mai D et al.	ZFP36 disruption is insufficient to enhance the function of mesothelin-targeting human CAR-T cells.
+38327771	iScience	2024	Wang Y et al.	Immune-restoring CAR-T cells display antitumor activity and reverse immunosuppressive TME in a humanized ccRCC mouse model.
+38345397	Cancer Immunol Res	2024	Degagné É et al.	High-Specificity CRISPR-Mediated Genome Engineering in Anti-BCMA Allogeneic CAR T Cells Suppresses Allograft Rejection in Preclinical Models.
+38355749	EMBO Mol Med	2024	Mueller J et al.	Targeting the mevalonate or Wnt pathways to overcome CAR T-cell resistance in TP53-mutant AML cells.
+38359407	Blood Adv	2024	Carniti C et al.	Monocytes in leukapheresis products affect the outcome of CD19-targeted CAR T-cell therapy in patients with lymphoma.
+38380966	Cancer Res Commun	2024	Kinoshita S et al.	Rejuvenated iPSC-derived GD2-directed CART Cells Harbor Robust Cytotoxicity Against Small Cell Lung Cancer.
+38454126	Nat Med	2024	Brown CE et al.	Locoregional delivery of IL-13Rα2-targeting CAR-T cells in recurrent high-grade glioma: a phase 1 trial.
+38502193	J Clin Invest	2024	Appelbaum J et al.	Drug-regulated CD33-targeted CAR T cells control AML using clinically optimized rapamycin dosing.
+38574299	Blood Adv	2024	Ledergor G et al.	CD4+ CAR T-cell exhaustion associated with early relapse of multiple myeloma after BCMA CAR T-cell therapy.
+38600376	Nature	2024	Chan JD et al.	FOXO1 enhances CAR T cell stemness, metabolic fitness and efficacy.
+38600391	Nature	2024	Doan AE et al.	FOXO1 is a master regulator of memory programming in CAR T cells.
+38641734	Nat Cancer	2024	Rade M et al.	Single-cell multiomic dissection of response and resistance to chimeric antigen receptor T cells against BCMA in relapsed multiple myeloma.
+38645165	Res Sq	2024	Steffin D et al.	Interleukin-15-armored GPC3-CAR T cells for patients with solid cancers.
+38670095	Cell Rep Med	2024	Yoshikawa T et al.	Development of a chimeric cytokine receptor that captures IL-6 and enhances the antitumor response of CAR-T cells.
+38670972	Nat Commun	2024	Andreu-Saumell I et al.	CAR affinity modulates the sensitivity of CAR-T cells to PD-1/PD-L1-mediated inhibition.
+38684370	J Immunother Cancer	2024	Ruggeri Barbaro N et al.	Placental circulating T cells: a novel, allogeneic CAR-T cell platform with preserved T-cell stemness, more favorable cytokine profile, and durable efficacy compared to adult PBMC-derived CAR-T.
+38688275	Cell Rep Med	2024	Hu Y et al.	Selective refueling of CAR T cells using ADA1 and CD26 boosts antitumor immunity.
+38718110	Sci Adv	2024	Nishimura CD et al.	TOP CAR with TMIGD2 as a safe and effective costimulatory domain in CAR cells treating human solid tumors.
+38722688	JCI Insight	2024	Wilhelm A et al.	Selective CAR T cell-mediated B cell depletion suppresses IFN signature in SLE.
+38750245	Nat Cancer	2024	Rezvan A et al.	Identification of a clinically efficacious CAR T cell subset in diffuse large B cell lymphoma by dynamic multidimensional single-cell profiling.
+38750365	Nature	2024	Yamada-Hunter SA et al.	Engineered CD47 protects T cells for enhanced antitumour immunity.
+38819256	Cancer Immunol Res	2024	Fredon M et al.	Impact of scFv on Functionality and Safety of Third-Generation CD123 CAR T Cells.
+38834752	Nat Biomed Eng	2024	Sin WX et al.	A high-density microfluidic bioreactor for the automated manufacturing of CAR T cells.
+38834758	Commun Biol	2024	Takayanagi SI et al.	A culture method with berbamine, a plant alkaloid, enhances CAR-T cell efficacy through modulating cellular metabolism.
+38874582	Cancer Immunol Res	2024	De Munter S et al.	Knocking Out CD70 Rescues CD70-Specific NanoCAR T Cells from Antigen-Induced Exhaustion.
+38959337	Cancer Immunol Res	2024	Cai W et al.	Augmenting CAR T-cell Functions with LIGHT.
+39028827	Sci Immunol	2024	Patel RP et al.	CD5 deletion enhances the antitumor activity of adoptive T cell therapies.
+39043633	Nat Commun	2024	Tian M et al.	CAR T-cells targeting FGFR4 and CD276 simultaneously show potent antitumor effect against childhood rhabdomyosarcoma.
+39058976	Blood Adv	2024	Palacios-Berraquero ML et al.	Molecular mechanisms promoting long-term cytopenia after BCMA CAR-T therapy in multiple myeloma.
+39095594	Nat Med	2024	Chokshi CR et al.	Targeting axonal guidance dependencies in glioblastoma with ROBO1 CAR T cells.
+39151930	J Immunother Cancer	2024	Nakagawara K et al.	NR4A ablation improves mitochondrial fitness for long persistence in human CAR-T cells against solid tumors.
+39237300	Genome Res	2024	Park C et al.	A Bayesian framework for inferring dynamic intercellular interactions from time-series single-cell data.
+39241199	Blood	2024	Maurer K et al.	Baseline immune state and T-cell clonal kinetics are associated with durable response to CAR-T therapy in large B-cell lymphoma.
+39266501	Nat Commun	2024	Stewart CM et al.	IL-4 drives exhaustion of CD8(+) CART cells.
+39304772	Nat Cancer	2024	Lemaitre L et al.	Spatial analysis reveals targetable macrophage-mediated mechanisms of immune evasion in hepatocellular carcinoma minimal residual disease.
+39322664	Nature	2024	Bai Z et al.	Single-cell CAR T atlas reveals type 2 function in 8-year leukaemia remission.
+39333103	Nat Commun	2024	Fiorenza S et al.	Histone marks identify novel transcription factors that parse CAR-T subset-of-origin, clinical potential and expansion.
+39471818	Cell Rep Med	2024	Guerrero-Murillo M et al.	Integrative single-cell multi-omics of CD19-CAR(pos) and CAR(neg) T cells suggest drivers of immunotherapy response in B cell neoplasias.
+39536093	Sci Adv	2024	Dimitri AJ et al.	TET2 regulates early and late transitions in exhausted CD8(+) T cell differentiation and limits CAR T cell function.
+39566469	Cell Rep Med	2024	Obajdin J et al.	Solid tumor immunotherapy using NKG2D-based adaptor CAR T cells.
+39604730	Nature	2025	Steffin D et al.	Interleukin-15-armoured GPC3 CAR T cells for patients with solid cancers.
+39642314	Blood Adv	2025	Battram AM et al.	Genetic disruption of Blimp-1 drastically augments the antitumor efficacy of BCMA-targeting CAR T cells.
+39642889	Cancer Cell	2025	Isshiki Y et al.	EZH2 inhibition enhances T cell immunotherapies by inducing lymphoma immunogenicity and improving T cell function.
+39729997	Cancer Cell	2025	Ma S et al.	Targeting P4HA1 promotes CD8(+) T cell progenitor expansion toward immune memory and systemic anti-tumor immunity.
+39809749	Signal Transduct Target Ther	2025	Wang P et al.	Chimeric antigen receptor with novel intracellular modules improves antitumor performance of T cells.
+39813623	Blood Adv	2025	Waldschmidt JM et al.	Nivolumab to restore T-cell fitness in CAR-T refractory multiple myeloma.
+39932788	J Clin Invest	2025	Mu W et al.	Rapamycin enhances CAR-T control of HIV replication and reservoir elimination in vivo.
+39951542	Sci Adv	2025	Castellanos-Rueda R et al.	Dissecting the role of CAR signaling architectures on T cell activation and persistence using pooled screens and single-cell sequencing.
+39962287	Nat Med	2025	Li CH et al.	Long-term outcomes of GD2-directed CAR-T cell therapy in patients with neuroblastoma.
+39970330	Cancer Res	2025	Rodrigues Carvalho ML et al.	Targeting PRC2 Enhances the Cytotoxic Capacity of Anti-CD19 CAR T Cells against Hematologic Malignancies.
+39984633	Nat Med	2025	Braun T et al.	Multiomic profiling of T cell lymphoma after therapy with anti-BCMA CAR T cells and GPRC5D-directed bispecific antibody.
+40068599	Cancer Cell	2025	Pham-Danis C et al.	Restoration of LAT activity improves CAR T cell sensitivity and persistence in response to antigen-low acute lymphoblastic leukemia.
+40083872	Front Oncol	2025	Tian Y et al.	Tumor gene expression signatures associated with outcome in large B-cell lymphoma treated with CD19-directed CAR T-cell therapy (axicabtagene ciloleucel).
+40203088	Sci Adv	2025	Nguyen KA et al.	CD22 TCR-engineered T cells exert antileukemia cytotoxicity without causing inflammatory responses.
+40210237	J Immunother Cancer	2025	Herzberg C et al.	Prior chemotherapy deteriorates T-cell quality for CAR T-cell therapy in B-cell non-Hodgkin's lymphoma.
+40359942	Cell	2025	Geraghty AC et al.	Immunotherapy-related cognitive impairment after CAR T cell therapy in mice.
+40410132	Nat Commun	2025	Cheloni G et al.	Durable response to CAR T is associated with elevated activation and clonotypic expansion of the cytotoxic native T cell repertoire.
+40610421	Nat Commun	2025	Sek K et al.	Tumor site-directed A1R expression enhances CAR T cell function and improves efficacy against solid tumors.
+41545540	Nat Immunol	2026	Chang TC et al.	BACH2 regulates T cell lineage state to enhance CAR T cell function.
+41590660	Metabolites	2026	Agac Cobanoglu D et al.	CAR Intrinsic Design Pre-Shapes Transcriptional and Metabolic Networks in CAR T Cells.
+42112708	Cancer Immunol Res	2026	Tang E et al.	Low-Strength Type I Interferon Signaling Promotes CAR T-cell Treatment Efficacy.
+42380664	Leukemia	2026	Garcia C et al.	FATP2-mediated lipid metabolism enhances chimeric antigen receptor T-cell therapy resistance in B-cell acute lymphoblastic leukemia.

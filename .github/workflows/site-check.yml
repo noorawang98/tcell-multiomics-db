@@ -1,0 +1,50 @@
+name: Site build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild from catalog.sqlite
+        working-directory: _curated
+        run: |
+          python3 export_json.py --site site --repo-name "${{ github.event.repository.name }}"
+          python3 make_icons.py
+          python3 build_site.py
+      - name: Check exported JSON
+        working-directory: _curated
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open("site/data/datasets.json", encoding="utf-8"))
+          c = json.load(open("site/data/categories.json", encoding="utf-8"))
+          m = json.load(open("site/data/meta.json", encoding="utf-8"))
+          assert len(d) == m["n_ds"] == 134
+          accs = {r["acc"] for r in d}
+          seen = set()
+          for r in d:
+              seen.update(r["dis"])
+          assert seen == {x["id"] for x in c}
+          for cat in c:
+              assert set(cat["accs"]) <= accs
+          blob = json.dumps(d, ensure_ascii=False)
+          for bad in ["/home/", "password", "api_key", "BEGIN PRIVATE KEY"]:
+              assert bad not in blob, bad
+          print("JSON OK:", len(d), "datasets /", len(c), "categories")
+          PY
+      - name: Check generated download scripts
+        working-directory: _curated
+        run: |
+          node site/assets/_gen_test.js site/data/downloads.json /tmp/webtest
+          bash -n /tmp/webtest/web_geo.sh
+          [ -f /tmp/webtest/web_sra.sh ] && bash -n /tmp/webtest/web_sra.sh || true
+          python3 selftest_download.py --sra

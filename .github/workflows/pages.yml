@@ -1,0 +1,64 @@
+name: Build site from database and deploy to GitHub Pages
+
+# 说明：本仓库根目录【已经】是构建好的站点，默认用 "Deploy from a branch" 即可发布。
+# 这个工作流用于「改了数据库/脚本后自动重建并发布」，需要在
+# Settings → Pages → Source 选择 "GitHub Actions" 才会生效。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_curated/catalog.sqlite"
+      - "_curated/annotation.tsv"
+      - "_curated/dataset_master.tsv"
+      - "_curated/downloads.json"
+      - "_curated/*.py"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Export public JSON
+        working-directory: _curated
+        run: python3 export_json.py --site site --repo-name "${{ github.event.repository.name }}"
+      - name: Regenerate icons
+        working-directory: _curated
+        run: python3 make_icons.py
+      - name: Build pages
+        working-directory: _curated
+        run: python3 build_site.py
+      - name: Sanity check
+        run: |
+          test -f _curated/site/index.html
+          test -f _curated/site/catalog.html
+          test -f _curated/site/guideline.html
+          test "$(ls _curated/site/pages/*.html | wc -l)" = "11"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _curated/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

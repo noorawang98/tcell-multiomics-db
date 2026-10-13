@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this database or its curation output, please cite it as below."
+title: "CAR-T / T-cell Multi-omics Database (TCMDB)"
+abstract: >-
+  A curated, bilingual index of public CAR-T and T-cell multi-omics datasets from NCBI GEO,
+  organised by disease category, with verifiable omics types, sample counts, integrity status
+  and literature links. Includes a batch download-script generator that only emits commands
+  for download URLs verified against official GEO/SRA metadata.
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-13"
+repository-code: "https://github.com/<用户名>/tcell-multiomics-db"
+url: "https://<用户名>.github.io/tcell-multiomics-db/"
+keywords:
+  - CAR-T
+  - T cell
+  - multi-omics
+  - single-cell
+  - GEO
+  - bioinformatics database
+  - immunotherapy
+authors:
+  - family-names: "<姓氏 / Family name>"
+    given-names: "<名字 / Given name>"
+    affiliation: "<单位 / Affiliation>"
+    orcid: "https://orcid.org/<0000-0000-0000-0000>"
+    email: "<邮箱 / Email>"
+# 若同时有教师/课题组负责人，可再加一条：
+#  - family-names: "..."
+#    given-names: "..."
+#    affiliation: "..."
+#    email: "..."

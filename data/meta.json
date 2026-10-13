@@ -1,0 +1,30 @@
+{
+ "generated": "2026-10-13",
+ "gen_ts": "2026-10-13 20:02",
+ "repo": "tcell-multiomics-db",
+ "raw_base": "",
+ "n_ds": 134,
+ "n_samples": 3298,
+ "bytes": 166768927137,
+ "tb": 0.152,
+ "gb": 155.3,
+ "n_verified": 79,
+ "n_issue": 0,
+ "n_matched": 25,
+ "n_pub": 111,
+ "n_files": 611,
+ "n_tarmem": 2659,
+ "n_local": 133,
+ "n_bad_gz": 0,
+ "source": "NCBI GEO（E-utilities + FTP series matrix）+ PubMed 官方记录",
+ "mod_keys": [
+  "scRNA",
+  "bulkRNA",
+  "scATAC",
+  "bulkATAC",
+  "scTCR",
+  "bulkTCR",
+  "methylation",
+  "CRISPR-screen"
+ ]
+}
