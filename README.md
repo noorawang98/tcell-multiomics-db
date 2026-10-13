@@ -38,26 +38,6 @@ SRA 原始数据作为独立选项，仅对已核实关联 accession 的数据�
 └─ .github/workflows/           pages.yml（可选：从数据库自动重建并发布）
 ```
 
-## 本地预览
-
-```bash
-cd _curated
-python3 -m http.server 8901        # 浏览 http://127.0.0.1:8901/
-# 或生成可双击打开的版本（数据内联，无需服务器）
-python3 build_site.py --out site-local --inline
-```
-
-## 更新数据或页面
-
-```bash
-cd _curated
-python3 fetch_download_manifest.py --sra --workers 6   # 重新核实下载地址（可选）
-bash build_site.sh                                     # 重建 data/*.json 与全部页面
-bash package_repo.sh                                   # 重新打包 zip / bundle
-```
-
-新增数据集：在 `catalog.sqlite` 的 `datasets` / `annotation` 表补记录 → 重跑上面三步。
-
 ## 数据来源与许可
 
 - 元数据：NCBI GEO（E-utilities + FTP series matrix）；文献：PubMed 官方记录
